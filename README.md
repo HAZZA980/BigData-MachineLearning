@@ -10,7 +10,7 @@ The main goal of this project is to predict the survival rate of passengers on t
     Pandas: For data processing and analysis.
     Matplotlib: For data visualization.
     Seaborn: For advanced data visualization.
-    PySpark: For distributed data processing (Spark 3.2).
+    PySpark: For distributed data processing (Spark 3.2). 
 
 Key Steps:
     - Data Preprocessing: The project begins with data preprocessing, where the dataset is cleaned and prepared for analysis. This includes handling missing values, dropping unnecessary columns, and converting categorical variables into numerical format.
