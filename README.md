@@ -13,9 +13,13 @@ The main goal of this project is to predict the survival rate of passengers on t
     PySpark: For distributed data processing (Spark 3.2). 
 
 Key Steps:
+    
     - Data Preprocessing: The project begins with data preprocessing, where the dataset is cleaned and prepared for analysis. This includes handling missing values, dropping unnecessary columns, and converting categorical variables into numerical format.
+    
     - Feature Selection: After preprocessing, the project selects the relevant features for predicting survival rates. Features such as passenger class, gender, age, and embarkation point are chosen as they are believed to have an impact on survival.
+    
     - Machine Learning: The project employs PySpark, a powerful tool for large-scale data processing, to create a machine learning pipeline. This pipeline includes feature vectorization and label indexing to prepare the data for modeling.
+    
     - Model Building: Several machine learning models are trained and evaluated to predict the survival rate. The performance of each model is assessed using metrics such as accuracy, precision, and recall.
 
     Visualization: Throughout the project, data visualization techniques are used to gain insights into the dataset and visualize the results. Matplotlib and Seaborn are used for creating informative graphs and plots.
